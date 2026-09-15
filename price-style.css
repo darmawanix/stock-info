@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 30px;
+}
+.table-container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+th {
+  background-color: #222;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+tr:hover {
+  background-color: #eeeeee;
+}
+.number {
+  width: 60px;
+}
+.ticker {
+  font-weight: bold;
+}
+.price,
+.market-cap {
+  text-align: right;
+}
